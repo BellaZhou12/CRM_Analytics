@@ -125,6 +125,6 @@ def ecommerce_preprocess(dataframe):
 df = ecommerce_preprocess(df)
 desc_stats(df.select_dtypes(include = [float, int]))
 
-# save the processed data as new file
+# save the processed data to new file
 df.to_csv('/Users/bella/Desktop/Github/CRM_Analytics/processed_data.csv', index=False)
 

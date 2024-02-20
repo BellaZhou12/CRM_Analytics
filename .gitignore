@@ -1,0 +1,6 @@
+/data.csv
+/venv/
+/processed_data.csv
+*.xml
+*.iml
+*.html
